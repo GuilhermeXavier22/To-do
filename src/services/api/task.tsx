@@ -2,7 +2,7 @@ import service from "@/config/api";
 import { Task } from "@/interfaces";
 
 const taskServices = {
-  getTasks: async function (params: { date: string }) {
+  getTasks: async function (params: { date: Task["date"] }) {
     return await service
       .get("/tasks", { params })
       .then((res) => res.data)
