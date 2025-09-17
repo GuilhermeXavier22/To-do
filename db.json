@@ -1,3 +1,22 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "546871224726437400000",
+      "name": "Terminar css checkout MEGE",
+      "completed": true,
+      "date": "30/08/2025"
+    },
+    {
+      "id": "143388246494032250000",
+      "name": "Aplicar o cupom que vem na url no checkout",
+      "completed": true,
+      "date": "15/09/2025"
+    },
+    {
+      "id": "171408087356805350000",
+      "name": "Verificar se pusher esta funcionando",
+      "completed": true,
+      "date": "15/09/2025"
+    }
+  ]
 }

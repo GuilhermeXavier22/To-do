@@ -1,11 +1,6 @@
 import { Button } from "../Button";
-import { Task } from "@/interfaces";
+import { Task, TaskCardProps } from "@/interfaces";
 import taskServices from "@/services/api/task";
-
-interface TaskCardProps {
-  task: Task;
-  setTasks: React.Dispatch<React.SetStateAction<Array<Task>>>;
-}
 
 export const TaskCard = ({ task, setTasks }: TaskCardProps) => {
   const handleClick = async () => {
