@@ -4,3 +4,8 @@ export interface Task {
   completed: boolean;
   date?: string;
 }
+
+export interface TaskCardProps {
+  task: Task;
+  setTasks: React.Dispatch<React.SetStateAction<Array<Task>>>;
+}
